@@ -56,9 +56,14 @@ $users = $stmt->fetchAll();
             $user['email'],
             $user['register_date']
         );
-        printf('<td><a href="delete.php?id=%s">Eliminar</a></td>',
+        echo "<td>";
+        printf('<a href="edit.php?id=%s">Editar</a> | ',
              $user['id']
         );
+        printf('<a href="delete.php?id=%s">Eliminar</a>',
+             $user['id']
+        );
+        echo "</td>";
         echo "</tr>";
     }
 ?>
