@@ -1,6 +1,10 @@
 {
     "name": "dsw/blog",
+<<<<<<< HEAD
     "description": "Acceso a datos, ejemplo blog",
+=======
+    "description": "Tema 3: Acceso a Datos. Ejemplo Blog",
+>>>>>>> f7f0248c8e40a844abfcb9d9d135d49dce7173d0
     "type": "project",
     "require": {
         "vlucas/phpdotenv": "^5.6"
@@ -12,8 +16,13 @@
     },
     "authors": [
         {
+<<<<<<< HEAD
             "name": "Thani-cmd",
             "email": "thani.martinez2@gmail.com"
+=======
+            "name": "Andrés Crespo",
+            "email": "acrerosj@canariaseducacion.es"
+>>>>>>> f7f0248c8e40a844abfcb9d9d135d49dce7173d0
         }
     ],
     "minimum-stability": "stable"

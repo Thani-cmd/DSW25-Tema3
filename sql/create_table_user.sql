@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 CREATE TABLE IF NOT EXISTS users(
+=======
+CREATE TABLE IF NOT EXISTS users (
+>>>>>>> f7f0248c8e40a844abfcb9d9d135d49dce7173d0
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
     email VARCHAR(100) NOT NULL UNIQUE,
     register_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+<<<<<<< HEAD
 )   ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+=======
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+>>>>>>> f7f0248c8e40a844abfcb9d9d135d49dce7173d0
